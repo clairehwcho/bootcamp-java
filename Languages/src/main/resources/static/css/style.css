@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1, h3 {
+	color: navy;
+}
+
+#languageList {
+	width: 600px;
+	text-align: center;
+}
+
+#addForm {
+	width: 600px;
+}
+
+.errormessage {
+	color: red;
+}
+
+.row2 {
+	width: 600px;
+	margin-top: 30px;
+}
