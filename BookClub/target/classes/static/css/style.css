@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	/* 	border: 1px solid red; */
+}
+
+.index_row1 {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px;
+	/* 	border: 1px solid green; */
+}
+
+.index_row1 h1 {
+	color: blue;
+}
+
+.index_row2 {
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 10px;
+	flex-wrap: wrap;
+	/* 	border: 1px solid blue; */
+}
+
+#addForm {
+	width: 300px;
+}
+
+.errormessage {
+	color: red;
+}
+/* DASHBOARD */
+.main_row1, .main_row2{
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	/* 	border: 1px solid green; */
+}
+
+.main_row3 {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+#bookList {
+	width: 800px;
+	text-align: center;
+}
