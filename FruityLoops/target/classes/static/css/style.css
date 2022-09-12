@@ -1,0 +1,13 @@
+h1 {
+	color: #EC8280;
+}
+
+table {
+	width: 300px;
+	text-align: left;
+	border: 20px solid #EC8280;
+}
+
+table tr {
+	border: 1px solid #EC8280;
+}
